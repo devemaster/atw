@@ -142,17 +142,56 @@ form.pad-right {
     }
 
     /* home */
-    button.btn-fb {
+    a.btn-fb {
         width: 84%;
         font-size: 16px;
+        padding-top: 9px;
     }
-    button.btn-gog {
+    a.btn-gog {
         width: 84%;
         font-size: 16px;
+        padding-top: 9px;
     }
-    button.btn-sign {
+    a.btn-sign {
         width: 65%;
         font-size: 16px;
+        padding-top: 9px;
+    }
+    /* dashboard */
+    .main-1 {
+        margin-left: 74px !important;
+    }
+    h2.welcome-heading {
+        font-size: 23px;
+    }
+    button.btn-generate {
+        width: 68% !important;
+        margin-top: 24px;
+        margin-bottom: 19px;
+    }
+    .sidebar {
+        width: 70px !important;
+    }
+    input.rtmp-input {
+        width: 100% !important;
+    }
+    button.btn-copy {
+        width: 22%;
+        margin-left: 4px !important;
+        margin-top: 9px;
+        width: 57% !important;
+    }
+    p.add-channel-p {
+        line-height: 25px !important;
+        font-size: 15px;
+    }
+    .bg-pexel-joseph {
+        margin-bottom: 13px;
+    }
+    button.btn-generate {
+        width: 29%;
+        margin-top: 13px;
+        margin-left: 5px;
     }
 }
 @media only screen and (min-device-width: 400px) and (max-device-width: 500px){
@@ -179,14 +218,33 @@ form.pad-right {
         margin-top: -14px;
     }
     /* home */
-    button.btn-fb {
+    a.btn-fb {
         width: 74%;
     }
-    button.btn-gog {
+    a.btn-gog {
         width: 74%;
     }
-    button.btn-sign {
+    a.btn-sign {
         width: 44%;
+    }
+    /* dashboard */
+    .main-1 {
+        margin-left: 74px !important;
+    }
+    h2.welcome-heading {
+        font-size: 23px;
+    }
+    button.btn-generate {
+        width: 40% !important;
+        margin-top: 24px;
+        margin-bottom: 19px;
+    }
+    button.btn-copy {
+        width: 29% !important;
+        margin-left: 7px !important;
+    }
+    .sidebar {
+        width: 77px !important;
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
@@ -205,13 +263,21 @@ form.pad-right {
     }
 
     /* home */
-    button.btn-fb,button.btn-gog {
+    a.btn-fb,a.btn-gog {
         width: 73%;
         font-size: 17px;
     }
-    button.btn-sign{
+    a.btn-sign{
         width: 61%;
         font-size: 17px;
+    }
+
+    /* dashboar */
+    button.btn-copy {
+        margin-left: 26px !important;
+    }
+    button.btn-generate {
+        width: 35%;
     }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1215px){
@@ -223,7 +289,7 @@ form.pad-right {
         font-size: 16px;
     }
     /* home */
-    button.btn-sign {
+    a.btn-sign {
         width: 40%;
     }
 }
