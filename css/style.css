@@ -52,7 +52,7 @@ input.email-input {
 p.atw-p {
     font-size: 18px;
 }
-button.btn-fb {
+a.btn-fb {
     background: blue;
     color: #fff;
     width: 59%;
@@ -61,7 +61,7 @@ button.btn-fb {
     font-size: 19px;
     margin-bottom: 16px;
 }
-button.btn-gog {
+a.btn-gog {
     background: red;
     color: #fff;
     width: 59%;
@@ -79,7 +79,7 @@ button.btn-sign-free {
     font-size: 19px;
     margin-bottom: 16px;
 }
-button.btn-sign {
+a.btn-sign {
     background: red;
     color: #fff;
     width: 30%;
