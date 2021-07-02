@@ -256,9 +256,10 @@ form.pad-right {
   }
   
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 123px; /* Same as the width of the sidenav */
     padding: 0px 10px;
   }
+  
   
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
@@ -284,4 +285,107 @@ form.pad-right {
   p.add-channel-p {
       line-height: 36px;
   }
+  input.rtmp-input {
+    width: 64%;
+    border-radius: 6px;
+    padding: 5px 0 5px 13px;
+}
+button.btn-copy {
+    background: red;
+    width: 25%;
+    margin-left: 29px;
+    border-radius: 6px;
+}
+.first-inp {
+    margin-bottom: 21px;
+}
+button.btn-copy {
+    background: red;
+    width: 22%;
+    margin-left: 41px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 800;
+}
+img.img-pexel-joseph {
+    width: 100%;
+}
+.bg-pexel-joseph {
+    background-image: url(../image/Rectangle.png) !important;
+    padding: 20px;
+    margin-right: 12px;
+}
+.mar-top {
+    margin-top: 41px;
+    margin-right: 2px;
+}
+button.btn-generate {
+    background: red;
+    width: 29%;
+    font-size: 18px;
+    margin-top: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* social channel */
+img.live-img {
+    width: 12%;
+}
+button.add-channel-btn {
+    background: red;
+    margin-top: 36px;
+    width: 17%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+img.fbl-img {
+    width: 100%;
+    cursor: pointer;
+}
+.main-1 {
+    margin-left: 102px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
   
+  /* social-fb */
+  .top-mar {
+    margin-top: 156px;
+}
+button.conct-fb-btn {
+    background: blue;
+    color: #fff;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 34px;
+}
+.borde-r {
+    border-left: 1px solid #c0c0c0c9;
+    z-index: 999;
+}
+p.learn-cont-fb-p {
+    margin-top: 34px;
+    margin-left: 27px;
+    font-size: 19px;
+}
+span.learn-span {
+    color: red;
+}
+h2.about-h2 {
+    margin-left: 26px;
+    font-size: 44px;
+    font-weight: 700;
+}
+h2.facbook-h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+i.fa-fb {
+    color: blue;
+    background: #fff;
+    border-radius: 23px;
+    padding: 6px 9px 5px 8px;
+    font-size: 15px;
+}
