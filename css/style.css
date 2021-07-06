@@ -262,6 +262,12 @@ form.pad-right {
     a.btn-forget {
         width: 63%;
     }
+    /* studio */
+    /* .grid-container{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr ;
+    } */
+
 }
 @media only screen and (min-device-width: 400px) and (max-device-width: 500px){
     /* sign up */
@@ -363,6 +369,11 @@ form.pad-right {
     a.btn-forget {
         width: 46%;
     }
+    /* studio */
+    /* .grid-container{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr ;
+    } */
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
     /* sign up */
