@@ -133,6 +133,9 @@ form.pad-right {
         width: 56%;
     font-size: 16px;
     }
+    .mab {
+        margin: 0 !important;
+    }
     p.already-p {
         font-size: 15px;
         margin-top: 14px;
@@ -180,7 +183,7 @@ form.pad-right {
         margin-left: 0 !important;
         padding: 0 !important;
     }
-    h2.welcome-heading {
+    a.welcome-heading {
         font-size: 23px;
     }
     button.btn-generate {
@@ -473,10 +476,13 @@ form.pad-right {
         width: 44%;
     }
     /* dashboard */
+    video.video-cs {
+        width: 252px !important;
+    }
     .main-1 {
         margin-right: 11px;
     }
-    h2.welcome-heading {
+    a.welcome-heading {
         font-size: 23px;
     }
     button.btn-generate {
@@ -641,8 +647,16 @@ form.pad-right {
         margin-left: 8px !important;
         margin-top: 11px !important; 
     }   
+    /* footer */
+    .mab {
+        margin: 0 !important;
+    }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    /* footer */
+    .mab {
+        margin: 0 0 0 18px !important;
+    }
     /* sign up */
     button.btn-sign-free {
         width: 56%;
@@ -844,7 +858,23 @@ form.pad-right {
 
 
 /* --------app dashboard----------- */
-
+video.video-cs {
+    width: 360px;
+    height: 212px;
+    position: absolute;
+    z-index: 99;
+    margin: 22px 0 0 102px;
+    border-radius: 17px;
+}
+p.custom-rtmp {
+    font-size: 28px;
+    font-weight: bold;
+}
+img.tv-img {
+    width: 67%;
+    position: relative;
+    margin: 0 0 0 77px;
+}
 .sidebar {
     height: 100%;
     width: 77px;
@@ -921,10 +951,12 @@ form.pad-right {
   img.side2-img {
       width: 80%;
   }
-  h2.welcome-heading {
+  a.welcome-heading {
       font-weight: 700;
       margin-top: 42px;
       line-height: 34px;
+      font-size: 35px;
+    color: #fff;
   }
   p.add-channel-p {
       line-height: 36px;
@@ -960,8 +992,13 @@ img.img-pexel-joseph {
     margin-right: 12px;
 }
 .mar-top {
-    margin-top: 41px;
+    margin-top: 79px;
     margin-right: 2px;
+}
+hr.hr-1 {
+    border-top: 1px solid rgb(249 238 238 / 67%);
+    width: 49%;
+    margin-top: 95px;
 }
 button.btn-generate {
     background: red;
@@ -970,6 +1007,38 @@ button.btn-generate {
     margin-top: 24px;
     color: #fff;
     font-weight: 700;
+}
+p.multistrming-dash-p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+h2.multiple-dash-h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+p.grow-dash-p {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+a.btn-getstarted {
+    background: red;
+    color: #fff;
+    line-height: 36px;
+    width: 33%;
+    border-radius: 6px;
+    font-weight: 800;
+}
+a.btn-getstarted:hover{
+    color: #fff;
+}
+img.restream-dash-img {
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    /* max-height: 406px */
+    max-height: 365px
 }
 
 /* social channel */
@@ -992,6 +1061,48 @@ img.fbl-img {
     margin-left: 9px; /* Same as the width of the sidenav */
     padding: 0px 10px;
   }
+  h2.media-h2 {
+    font-size: 46px;
+    margin: 12px 0 0 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* img.moon-img {
+    width: 100%;
+    margin: 0 0 0 11px;
+} */
+img.moon-img {
+    box-shadow: 20px 20px 20px 0 #ffffff21;
+    width: 100%;
+    margin: 18px 0 0 11px;
+    border: 1px solid #ffffff7d;
+    border-radius: 8px;
+}
+.bg-light-silv {
+    padding: 39px 18px 18px 50px;
+}
+p.enjoy-p {
+    font-size: 27px;
+}
+h4.eileen-marable-h4 {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 31px 0 5px 0;
+}
+p.senior-digi-p {
+    font-size: 22px;
+}
+.bg-new {
+    background: #253858;
+    padding: 21px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+img.cn-img {
+    width: 67%;
+    background: #fff;
+}
   
   /* social-fb */
   .top-mar {
@@ -1579,6 +1690,12 @@ input.email-inp:focus {
     a.a-bg {
         padding: 5px 15px 6px 10px;
     }
+    a.get-power-b {
+        text-align: right;
+    }
+    a.get-power-a {
+        text-align: left;
+    }
     a.a-bg-2 {
         padding: 5px 15px 6px 10px;
     }
@@ -1661,6 +1778,18 @@ input.email-inp:focus {
         letter-spacing: 1px;
         font-weight: 600;
         color: #fff;
+        margin: 0 0 0 11%;
+    }
+    i.fa-o-usr {
+        margin: 0 5px 0 0;
+        font-size: 16px;
+    }
+    p.u-name-p {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0 3% 0 0;
     }
     p.wlcm-p {
         letter-spacing: .01em;
@@ -1878,3 +2007,45 @@ input.email-inp:focus {
         margin-top: -10px;
         margin-left: 39px;
     }
+
+
+
+    /* footer */
+    section.footers {
+        background: #000;
+        width: 100%;
+        margin: 0;
+    }
+    section.footer-1 {
+        width: 96%;
+        margin: 0 0 0 54px;
+    }
+h5.footer-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+a.foot-list {
+    font-size: 11px;
+    color: silver;
+}
+.mab {
+    margin: 0 0 0 49px;
+}
+.hr {
+    border-bottom: 1px solid silver;
+}
+a.support-base {
+    color: #fff;
+}
+.footer-copyright {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* does-it-work */
+.whit-back {
+    background: #fff;
+    height: 400px;
+    width: 100%;
+}
