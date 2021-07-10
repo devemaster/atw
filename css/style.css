@@ -127,745 +127,27 @@ form.pad-right {
 }
 
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 399px){
-   /* sign up */
-    button.btn-sign-free {
-        width: 56%;
-    font-size: 16px;
-    }
-    .mab {
-        margin: 0 !important;
-    }
-    p.already-p {
-        font-size: 15px;
-        margin-top: 14px;
-    }
-    .pad-right {
-        padding-right: 14px;
-    }
-    .pad-left {
-        padding-left: 17px;
-    }
-    section.top-mar {
-        margin-top: 41px;
-    }
-    input.email-input {
-        width: 99%;
-    }
-    h2.get-more {
-        font-size: 33px;
-    }
-    p.atw-p {
-        font-size: 14px;
-    }
-    img.img-one {
-        margin-top: -14px;
-    }
 
-    /* home */
-    a.btn-fb {
-        width: 84%;
-        font-size: 16px;
-        padding-top: 9px;
-    }
-    a.btn-gog {
-        width: 84%;
-        font-size: 16px;
-        padding-top: 9px;
-    }
-    a.btn-sign {
-        width: 65%;
-        font-size: 16px;
-        padding-top: 9px;
-    }
-    /* dashboard */
-    .main-1 {
-        margin-left: 0 !important;
-        padding: 0 !important;
-    }
-    a.welcome-heading {
-        font-size: 23px;
-    }
-    button.btn-generate {
-        width: 68% !important;
-        margin-top: 24px;
-        margin-bottom: 19px;
-    }
-    /* .sidebar {
-        width: 70px !important;
-    } */
-    .sidebar-new {
-        width: 70px !important;
-    }
-    input.rtmp-input {
-        width: 100% !important;
-    }
-    button.btn-copy {
-        width: 22%;
-        margin-left: 4px !important;
-        margin-top: 9px;
-        width: 57% !important;
-    }
-    p.add-channel-p {
-        line-height: 25px !important;
-        font-size: 15px;
-    }
-    .bg-pexel-joseph {
-        margin-bottom: 13px;
-    }
-    button.btn-generate {
-        width: 29%;
-        margin-top: 13px;
-        margin-left: 5px;
-    }
-    /* social channel */
-    img.live-img {
-        width: 40% !important;
-        margin-top: 16px;
-    }
-    button.add-channel-btn {
-        width: 84% !important;
-    }
-    img.fbl-img {
-        margin-bottom: 15px;
-    }
-    .mar-h {
-        margin: 0 0 0 8px;
-    }
-     /* social-fb */
-     .main {
-        margin-left: 10px !important;
-        padding: 0 !important;
-    }
-    .borde-r {
-        border-left: none !important;
-        border-top: 1px solid #c0c0c0c9 !important;
-    }
-    button.conct-fb-btn {
-        margin-top: 15px;
-        margin-bottom: 24px;
-    }
-    h2.about-h2,p.learn-cont-fb-p {
-        margin-left: 0 !important;
-    }
-    .top-mar {
-        margin-top: 79px !important;
-    }
-    h2.about-h2 {
-        margin-top: 23px;
-    }
-    /* sign in */
-    p.already-p-1 {
-        font-size: 11px !important;
-    }    
-    a.sign-up,a.forget {
-        font-size: 16px !important;
-    }
-    /* forget */
-    a.btn-forget {
-        width: 63%;
-    }
-    /* my-account */
-    .fg-mar {
-        margin-left: 28px !important;
-    }
-    input.name-input {
-        width: 90%;
-    }
-    .bg-col-sli {
-        width: 100%;
-        padding: 25px 0 23px 0 !important;
-    }
-    textarea.addres-area {
-        width: 90%;
-    }
-    p.get-more-p {
-        margin: 0 0 0 47px;
-    }
-    section.header {
-        height: 51px !important;
-    }
-    button.btn-submit {
-        width: 52% !important;
-    }
-    /* new-home */
-    .box-mar {
-        margin: 5% 14% 0 31% !important;
-    }
-    .box-mar-1 {
-        margin: 7% 14% 0 31% !important;
-    }
-    .border-rad {
-        margin: 10% 8% 3% 28% !important;
-    }
-    .box-3 {
-        width: 100% !important;
-    }
-    p.wht-wod-p {
-        font-size: 20px;
-        margin-left: 46px;
-        line-height: 29px;
-    }
-    p.wlcm-p {
-        margin-left: 50px;
-    }
-    /* a.a-bg-git {
-        margin-top: 166px !important;
-    } */
-
-    /* social-storage */
-    section.fixed-1 {
-        margin: 6% 0 0 82% !important;
-    }
-    i.cloud-icon-fa {
-        font-size: 39px !important;
-        margin-bottom: 14px !important;
-    }
-    p.upgarde-p {
-        font-size: 13px !important;
-        line-height: 18px !important;
-        margin-bottom: 17px !important;
-    }
-    p.upgarde-to {
-        font-size: 13px !important;
-        line-height: 18px !important;
-    }
-    a.font-nav {
-        font-size: 12px !important;
-    }
-    section.tab-socail {
-        margin: 22px 0 0 57px !important;
-    }
-    button.upload-video-btn {
-        font-size: 11px !important;
-    }
-     /* studio */
-
-     p.access-camera-p {
-        font-size: 17px !important;
-     }
-
-     .grid-container{
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 0.4fr 0.4fr 0.4fr ;
-    }
-    .grid-item {
-        padding: 22px !important;
-        margin-top: 19px !important;
-    }
-    img.chat-img {
-        width: 18% !important;
-    }
-    a.add-designation-btn {
-        font-size: 13px;
-    }
-    img.send-icon {
-        width: 16px;
-    }
-    .add-bg-1 {
-        margin-left: 0 !important;
-        margin-top: 11px !important; 
-    }
-    .blk-screen {
-        margin: 12px 15px 0 15px;
-        height: 362px;
-        padding: 82px 20px 0 20px;
-    }
-    .blk-screen {
-        margin: 11px 15px 0 15px !important;
-        height: 346px !important;
-        padding: 41px 34px 0 34px !important;
-    }
-    button.btn-allow-mic {
-        margin-left: 0 !important;
-        font-size: 11px;
-    }
-    button.btn-without {
-        margin: 32px 0 0 0 !important;
-        font-size: 11px;
-    }
-    .icons-group {
-        margin: 3% 0 0 7% !important;
-    }
-    i.fa-micro {
-        font-size: 18px !important;
-    }
-    i.fa-vido {
-        font-size: 19px !important;
-        margin: 0 4px 0 4px !important;
-    }
-    i.fa-lapt {
-        font-size: 19px !important;
-    }
-    i.fa-user {
-        font-size: 16px !important;
-        margin: 0 4px 0 4px !important;
-    }   
-    i.fa-pls {
-        font-size: 18px !important;
-    }
-    i.fa-grear {
-        font-size: 19px !important;
-        margin: 0 4px 0 4px !important;
-    }
-    .down-up {
-        margin: 14px 0 0 20px !important
-    }
-    i.fa-cm {
-        margin-top: 6px !important;
-    }
-    .footer {
-        margin: 217px 0 0 0 !important;
-    }
-    a.go-live-btn {
-        margin-top: 12px !important;
-    }
-    .overlay-1 {
-        top: 107px !important;
-    }
-    a.font-nav {
-        font-size: 13px !important;
-        padding: 6px 0 6px 0 !important;
-    }
-    li.nav-item {
-        width: 31% !important;
-    }
-    img.caption-img {
-        width: 17% !important;
-    }
-    .overlay {
-        top: 137px !important;
-        height: 139px !important;
-        left: 8px !important;
-    }
-    .pshow {
-        padding: 55px 0 0 0 !important;
-    }
-}
-@media only screen and (min-device-width: 400px) and (max-device-width: 500px){
-    /* sign up */
-    button.btn-sign-free {
-        width: 56%;
-    }
-    .pad-left {
-        padding-left: 17px;
-    }
-    section.top-mar {
-        margin-top: 41px;
-    }
-    input.email-input {
-        width: 99%;
-    }
-    h2.get-more {
-        font-size: 42px;
-    }
-    p.atw-p {
-        font-size: 14px;
-    }
-    img.img-one {
-        margin-top: -14px;
-    }
-    /* home */
-    a.btn-fb {
-        width: 74%;
-    }
-    a.btn-gog {
-        width: 74%;
-    }
-    a.btn-sign {
-        width: 44%;
-    }
-    /* dashboard */
-    video.video-cs {
-        width: 252px !important;
-    }
-    .main-1 {
-        margin-right: 11px;
-    }
-    a.welcome-heading {
-        font-size: 23px;
-    }
-    button.btn-generate {
-        width: 40% !important;
-        margin-top: 24px;
-        margin-bottom: 19px;
-    }
-    button.btn-copy {
-        width: 29% !important;
-        margin-left: 7px !important;
-    }
-    .sidebar {
-        width: 77px !important;
-    }
-    /* social-channel */
-    button.add-channel-btn {
-        width: 57% !important;
-    }
-    img.fbl-img {
-        margin-bottom: 15px;
-    }
-    .mar-top {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    img.live-img {
-        width: 34% !important;
-        margin-top: 16px;
-    }
-     /* social-fb */
-     .main {
-        margin-left: 10px !important;
-        padding: 0 !important;
-    }
-    .borde-r {
-        border-left: none !important;
-        border-top: 1px solid #c0c0c0c9 !important;
-    }
-    button.conct-fb-btn {
-        margin-top: 15px;
-        margin-bottom: 24px;
-    }
-    h2.about-h2,p.learn-cont-fb-p {
-        margin-left: 0 !important;
-    }
-    .top-mar {
-        margin-top: 79px !important;
-    }
-    h2.about-h2 {
-        margin-top: 23px;
-    }
-    /* sign in */
-    p.already-p-1 {
-        font-size: 11px !important;
-    }    
-    a.sign-up,a.forget {
-        font-size: 16px !important;
-    }
-    /* forget */
-    a.btn-forget {
-        width: 46%;
-    }
-    /* my-account */
-    .fg-mar {
-        margin-left: 28px !important;
-    }
-    input.name-input {
-        width: 90%;
-    }
-    .bg-col-sli {
-        width: 100%;
-        padding: 25px 0 23px 0 !important;
-    }
-    textarea.addres-area {
-        width: 90%;
-    }
-    p.get-more-p {
-        margin: 0 0 0 47px;
-    }
-    /* new-home */
-    .box-mar {
-        margin: 5% 18% 0 33% !important;
-    }
-    .box-mar-1 {
-        margin: 7% 18% 0 33% !important;
-    }
-    .border-rad {
-        margin: 10% 13% 3% 28% !important;
-    }
-    .box-3 {
-        width: 100% !important;
-    }
-    p.wht-wod-p {
-        font-size: 20px;
-        margin-left: 46px;
-        line-height: 29px;
-    }
-    a.a-bg-git {
-        margin-top: 312px !important;
-    }
-    /* social-storage */
-    section.tab-socail {
-        margin: 22px 0 0 59px !important;
-    }
-    section.fixed-1 {
-        margin: 6% 0 0 85% !important;
-    }
-    /* studio */
-    .grid-container{
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 0.4fr 0.4fr 0.4fr ;
-    }
-    .grid-item {
-        padding: 17px !important;
-        margin-top: 19px !important;
-    }
-    .blk-screen {
-        margin: 12px 15px 0 15px;
-        height: 362px;
-        padding: 82px 20px 0 20px;
-    }
-    .blk-screen {
-        margin: 11px 15px 0 15px !important;
-        height: 346px !important;
-        padding: 41px 34px 0 34px !important;
-    }
-    button.btn-allow-mic {
-        margin-left: 0 !important;
-    }
-    button.btn-without {
-        margin: 32px 0 0 0 !important;
-    }
-    .icons-group {
-        margin: 3% 0 0 12% !important;
-    }
-    .down-up {
-        margin: 14px 0 0 20px !important
-    }
-    i.fa-cm {
-        margin-top: 6px !important;
-    }
-    .footer {
-        margin: 217px 0 0 0 !important;
-    }
-    a.go-live-btn {
-        margin-top: 12px !important;
-    }
-    .overlay-1 {
-        top: 107px !important;
-    }
-    a.font-nav {
-        font-size: 13px !important;
-        padding: 6px 0 6px 0 !important;
-    }
-    li.nav-item {
-        width: 31% !important;
-    }
-    img.caption-img {
-        width: 17% !important;
-    }
-    .add-bg-1 {
-        margin-left: 8px !important;
-        margin-top: 11px !important; 
-    }   
-    /* footer */
-    .mab {
-        margin: 0 !important;
-    }
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
-    /* footer */
-    .mab {
-        margin: 0 0 0 18px !important;
-    }
-    /* sign up */
-    button.btn-sign-free {
-        width: 56%;
-    }
-    input.email-input {
-        width: 93%;
-    }
-    h2.get-more {
-        font-size: 41px;
-    }
-    p.atw-p {
-        font-size: 17px;
-    }
-
-    /* home */
-    a.btn-fb,a.btn-gog {
-        width: 73%;
-        font-size: 17px;
-    }
-    a.btn-sign{
-        width: 61%;
-        font-size: 17px;
-    }
-
-    /* dashboar */
-    button.btn-copy {
-        margin-left: 26px !important;
-    }
-    button.btn-generate {
-        width: 35%;
-    }
-    /* social-channel */
-    button.add-channel-btn {
-        width: 23% !important;
-    }
-     /* social-fb */
-     .main {
-        margin-left: 10px !important;
-        padding: 0 !important;
-    }
-    /* forget */
-    a.btn-forget {
-        width: 60%;
-    }
-    /* new-home */
-    .box-mar {
-        margin: 7% 0 0 55% !important;
-    }
-    .box-mar-1 {
-        margin: 7% 55% 0 0 !important;
-    }
-    /* social-storage */
-    section.fixed-1 {
-        margin: 6% 0 0 91% !important;
-    }
-    /* studio */
-    .grid-container {
-        grid-template-columns: 118px 320px auto !important;
-    }
-    .footer {
-        margin: 230px 0 0 0 !important;
-    }
-    .overlay-1 {
-        top: 164px !important;
-    }
-
-    a.font-nav {
-        font-size: 10px !important;
-        padding: 6px 0 6px 0 !important;
-    }
-    li.nav-item {
-        width: 31% !important;
-    }
-    img.caption-img {
-        width: 17% !important;
-    }
-    img.tr-img-1 {
-        width: 20% !important;
-    }
-    .add-bg-1 {
-        padding: 0 27px 6px 9px !important;
-    }
-    .icons-group {
-        margin: 3% 0 0 20% !important;
-    }
-    button.btn-allow-mic {
-        width: 100% !important;
-        font-size: 9px !important;
-        margin-left: 0 !important;
-    }
-    button.btn-without {
-        margin: 32px 0 0 0 !important;
-        font-size: 9px !important;
-    }
-    img.default-img,img.news-img {
-        width: 20%;
-    }
-    a.bord-img, a.bord-img-1,a.bord-img-2 {
-        padding: 0 0 6px 8px !important;
-    }
-    span.default-graphics {
-        font-size: 11px !important;
-    }
-    .icons-group {
-        margin: 3% 0 0 6% !important;
-    }
-    form.add-des-mar {
-        margin-left: 26% !important;
-    }
-    .blk-screen {
-        height: 286px !important;
-        padding: 42px 19px 0 19px !important;
-    }
-    p.access-camera-p {
-        font-size: 20px !important;
-    }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1215px){
-    /* sign up */
-    button.btn-sign-free {
-        width: 43%;
-    }
-    p.atw-p {
-        font-size: 16px;
-    }
-    input.email-input {
-        width: 76%;
-    }
-    /* home */
-    a.btn-sign {
-        width: 40%;
-    }
-    /* social-fb */
-    .main {
-        margin-left: 24px !important;
-        padding: 0 !important;
-    }
-    p.learn-cont-fb-p {
-        font-size: 16px !important;
-    }
-    /* forget */
-    a.btn-forget {
-        width: 39%;
-    }
-    /* new-home */
-    .box-mar {
-        margin: 7% 0 0 67% !important;
-    }
-    .box-mar-1 {
-        margin: 7% 67% 0 0 !important;
-    }
-    /* social-storage */
-    section.fixed-1 {
-        margin: 6% 0 0 93% !important;
-    }
-    /* studio */
-    .grid-container {
-        grid-template-columns: 174px 466px auto !important;
-    }
-    .footer {
-        margin: 230px 0 0 0 !important;
-    }
-    .overlay-1 {
-        top: 164px !important;
-    }
-
-    a.font-nav {
-        font-size: 10px !important;
-        padding: 6px 0 6px 0 !important;
-    }
-    li.nav-item {
-        width: 31% !important;
-    }
-    img.caption-img {
-        width: 17% !important;
-    }
-    img.tr-img-1 {
-        width: 20% !important;
-    }
-    .add-bg-1 {
-        padding: 0 27px 6px 9px !important;
-    }
-    .icons-group {
-        margin: 3% 0 0 20% !important;
-    }
-    button.btn-allow-mic {
-        width: 100% !important;
-        font-size: 10px !important;
-        margin-left: 0 !important;
-    }
-    button.btn-without {
-        margin: 32px 0 0 0 !important;
-        font-size: 10px !important;
-    }
-    form.add-des-mar {
-        margin-left: 26% !important;
-    }
-}
 
 
 /* --------app dashboard----------- */
+
+/* --------changes css------------ */
+
 video.video-cs {
+    /* width: 265px !important;
+    height: 172px !important;
+    margin: 8px 0 0 96px !important; */
+    width: 331px !important;
+    height: 238px !important;
     width: 360px;
     height: 212px;
     position: absolute;
     z-index: 99;
-    margin: 22px 0 0 102px;
+    margin: 0 0 0 0;
     border-radius: 17px;
 }
+/* ----------------------- */
 p.custom-rtmp {
     font-size: 28px;
     font-weight: bold;
@@ -906,7 +188,7 @@ img.tv-img {
 
 
 .sidebar-1 {
-    height: 100%;
+    height: 100vh;
     width: 58px;
     position: fixed;
     z-index: 1;
@@ -915,6 +197,9 @@ img.tv-img {
     background-color: #091e42;
     overflow-x: hidden;
     padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .sidebar-1 a {
@@ -983,13 +268,22 @@ button.btn-copy {
     color: #fff;
     font-weight: 800;
 }
+button.btn-copy:hover,button.btn-generate:hover {
+    color: #fff;
+}
 img.img-pexel-joseph {
     width: 100%;
 }
 .bg-pexel-joseph {
-    background-image: url(../image/Rectangle.png) !important;
-    padding: 20px;
-    margin-right: 12px;
+    background-image: url(../image/tv.jpg) !important;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+    background-size: 385px 316px;
+    z-index: 99;
+    height: 304px;
+    width: 100%;
+    margin: 0 0 0 102px;
+    padding: 5px 0 0 25px;
 }
 .mar-top {
     margin-top: 79px;
@@ -1212,12 +506,6 @@ form.add-des-mar {
 nav.pad-left-1 {
     padding-left: 17px;
 }
-/* .fir-bg {
-    background-color: #091e42;
-    border-radius: 8px;
-    padding: 16px 15px 16px 15px;
-    height: 100vh;
-} */
 .firt-sec {
     background: #374966;
     border-radius: 4px;
@@ -1701,7 +989,7 @@ input.email-inp:focus {
     }
     a.a-bg-git {
         padding: 5px 15px 6px 10px;
-        margin-top: 247px;
+        /* margin-top: 247px; */
     }
     
     i.home-fa {
@@ -1901,6 +1189,12 @@ input.email-inp:focus {
     }
 
     /* social-storage */
+    button.upgrade-now-btn:hover {
+        color: #fff;
+    }
+    button.upload-video-btn:hover {
+        color: #fff;
+    }
     h2.video-sto-h2 {
         margin: 18px 0 0 72px;
         font-size: 24px;
@@ -2048,4 +1342,1101 @@ a.support-base {
     background: #fff;
     height: 400px;
     width: 100%;
+}
+h2.welcome-heading {
+    margin-top: 20px;
+}
+img.cam-img {
+    width: 100%;
+    margin: 55px 0 0 0;
+}
+.whit-back {
+    background: #f6f6f6;
+    height: 400px;
+    width: 100%;
+}
+.one {
+    width: 100%;
+    background: #ffffff;
+    height: 389px;
+}
+img.cam-img-1 {
+    width: 100%;
+    /* height: 389px; */
+    margin-top: 0;
+    position: relative;
+}
+p.alpha-one {
+    color: #000;
+    font-size: 88px;
+    font-weight: 900;
+    text-shadow: 7px 4px #00000054;
+    margin: 49px 0 0 18px;
+}
+p.alpha-two {
+    color: #000;
+    font-size: 88px;
+    font-weight: 900;
+    text-shadow: 7px 4px #00000054;
+    margin: 49px 0 0 0;
+}
+p.add-2 {
+    font-size: 24px;
+    color: #000 !important;
+    margin: 15px 18px 0 17px;
+}
+.cam-img {
+    background-image: url('../image/nikon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 384px 390px;
+    z-index: 999;
+    width: 100%;
+}
+video.video-cs-1 {
+    position: absolute;
+    z-index: 99;
+    /* width: 12%;
+    margin: 191px 0 0 80px;
+    border-radius: 7px; */
+    width: 11%;
+    height: 133px;
+    margin: 173px 0 0 84px;
+    border-radius: 0;
+}
+.dflex {
+    display: flex;
+}
+a.add-channel-btn {
+    background: red;
+    color: #fff;
+    margin: 21px 0 0 0;
+    width: 41%;
+}
+a.go-li-btn {
+    background: red;
+    color: #fff;
+    margin: 21px 0 0 0;
+    width: 41%;
+}
+a.add-channel-btn:hover {
+    color: #fff;
+}
+a.go-li-btn:hover,a.btn-forget:hover,
+a.btn-fb:hover,a.btn-gog:hover,
+a.btn-sign:hover,button.btn-submit:hover,
+a.btn-sign-free:hover,button.btn-sign-free:hover,
+button.add-channel-btn:hover,
+button.conct-fb-btn:hover,
+button.btn-allow-mic:hover,
+a.go-live-btn:hover {
+    color: #fff;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 399px){
+    /* sign up */
+     button.btn-sign-free {
+         width: 56%;
+     font-size: 16px;
+     }
+     .mab {
+         margin: 0 !important;
+     }
+     p.already-p {
+         font-size: 15px;
+         margin-top: 14px;
+     }
+     .pad-right {
+         padding-right: 14px;
+     }
+     .pad-left {
+         padding-left: 17px;
+     }
+     section.top-mar {
+         margin-top: 41px;
+     }
+     input.email-input {
+         width: 99%;
+     }
+     h2.get-more {
+         font-size: 33px;
+     }
+     p.atw-p {
+         font-size: 14px;
+     }
+     img.img-one {
+         margin-top: -14px;
+     }
+ 
+     /* home */
+     a.btn-fb {
+         width: 84%;
+         font-size: 16px;
+         padding-top: 9px;
+     }
+     a.btn-gog {
+         width: 84%;
+         font-size: 16px;
+         padding-top: 9px;
+     }
+     a.btn-sign {
+         width: 65%;
+         font-size: 16px;
+         padding-top: 9px;
+     }
+     /* dashboard */
+ /* ----------- new changes ------------- */
+ h2.multiple-dash-h2 {
+    font-size: 34px;
+ }
+ .mar-top {
+    margin-top: 30px;
+ }
+ p.grow-dash-p {
+    font-size: 16px;
+ }
+ a.btn-getstarted {
+    width: 52%;
+    margin-bottom: 20px;
+ }
+ img.restream-dash-img {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    max-height: 159px;
+}
+img.tv-img {
+    width: 92%;
+margin: 0 0 0 26px;
+}
+video.video-cs {
+    width: 280px !important;
+    height: 166px !important;
+    margin: 0;
+}
+.bg-pexel-joseph {
+    /* background-size: 342px 236px; */
+    background-size: 329px 236px;
+    height: 304px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 0 21px;
+}
+ /* -------------------- */
+
+     .main-1 {
+         margin-left: 0 !important;
+         padding: 0 !important;
+     }
+     a.welcome-heading {
+         font-size: 23px;
+     }
+     button.btn-generate {
+         width: 68% !important;
+         margin-top: 24px;
+         margin-bottom: 19px;
+     }
+     /* .sidebar {
+         width: 70px !important;
+     } */
+     .sidebar-new {
+         width: 70px !important;
+     }
+     input.rtmp-input {
+         width: 100% !important;
+     }
+     button.btn-copy {
+         width: 22%;
+         margin-left: 4px !important;
+         margin-top: 9px;
+         width: 57% !important;
+     }
+     p.add-channel-p {
+         line-height: 25px !important;
+         font-size: 15px;
+     }
+     .bg-pexel-joseph {
+         margin-bottom: 13px;
+     }
+     button.btn-generate {
+         width: 29%;
+         margin-top: 13px;
+         margin-left: 5px;
+     }
+     /* social channel */
+     img.cn-img {
+        margin: 0 0 9px 0;
+    }
+    .bg-light-silv {
+        padding: 39px 18px 18px 17px;
+    }
+    p.enjoy-p {
+        font-size: 22px;
+    }
+     img.live-img {
+         width: 40% !important;
+         margin-top: 16px;
+     }
+     button.add-channel-btn {
+         width: 84% !important;
+     }
+     img.fbl-img {
+         margin-bottom: 15px;
+     }
+     .mar-h {
+         margin: 0 0 0 8px;
+     }
+      /* social-fb */
+      .main {
+         margin-left: 10px !important;
+         padding: 0 !important;
+     }
+     .borde-r {
+         border-left: none !important;
+         border-top: 1px solid #c0c0c0c9 !important;
+     }
+     button.conct-fb-btn {
+         margin-top: 15px;
+         margin-bottom: 24px;
+     }
+     h2.about-h2,p.learn-cont-fb-p {
+         margin-left: 0 !important;
+     }
+     .top-mar {
+         margin-top: 79px !important;
+     }
+     h2.about-h2 {
+         margin-top: 23px;
+     }
+     /* sign in */
+     p.already-p-1 {
+         font-size: 11px !important;
+     }    
+     a.sign-up,a.forget {
+         font-size: 16px !important;
+     }
+     /* forget */
+     a.btn-forget {
+         width: 63%;
+     }
+     /* my-account */
+     
+     .fg-mar {
+         margin-left: 28px !important;
+     }
+     input.name-input {
+         width: 90%;
+     }
+     .bg-col-sli {
+         width: 100%;
+         padding: 25px 0 23px 0 !important;
+     }
+     textarea.addres-area {
+         width: 90%;
+     }
+     p.get-more-p {
+         margin: 0 0 0 47px;
+     }
+     section.header {
+         height: 51px !important;
+     }
+     button.btn-submit {
+         width: 52% !important;
+     }
+     section.footer-1 {
+         margin: 0 !important;
+     }
+     footer.foot-marg {
+         margin: 0 0 0 18%;
+     }
+     /* new-home */
+     .box-mar {
+         margin: 5% 14% 0 31% !important;
+     }
+     .box-mar-1 {
+         margin: 7% 14% 0 31% !important;
+     }
+     .border-rad {
+         margin: 10% 8% 3% 28% !important;
+     }
+     .box-3 {
+         width: 100% !important;
+     }
+     p.wht-wod-p {
+         font-size: 20px;
+         margin-left: 46px;
+         line-height: 29px;
+     }
+     p.wlcm-p {
+         margin-left: 50px;
+     }
+     /* a.a-bg-git {
+         margin-top: 166px !important;
+     } */
+ 
+     /* social-storage */
+     section.fixed-1 {
+         margin: 6% 0 0 82% !important;
+     }
+     i.cloud-icon-fa {
+         font-size: 39px !important;
+         margin-bottom: 14px !important;
+     }
+     p.upgarde-p {
+         font-size: 13px !important;
+         line-height: 18px !important;
+         margin-bottom: 17px !important;
+     }
+     p.upgarde-to {
+         font-size: 13px !important;
+         line-height: 18px !important;
+     }
+     a.font-nav {
+         font-size: 12px !important;
+     }
+     section.tab-socail {
+         margin: 22px 0 0 57px !important;
+     }
+     button.upload-video-btn {
+         font-size: 11px !important;
+     }
+      /* studio */
+      .bg-wht-blr {
+        margin: 10px 0 0 -6px;
+     }
+     img.r-img {
+        margin: 10px 0 0 0;
+    }
+      p.access-camera-p {
+         font-size: 17px !important;
+      }
+ 
+      .grid-container{
+         grid-template-columns: 1fr !important;
+         grid-template-rows: 0.4fr 0.4fr 0.4fr ;
+     }
+     .grid-item {
+         padding: 22px !important;
+         margin-top: 19px !important;
+     }
+     img.chat-img {
+         width: 18% !important;
+     }
+     a.add-designation-btn {
+         font-size: 13px;
+     }
+     img.send-icon {
+         width: 16px;
+     }
+     .add-bg-1 {
+         margin-left: 0 !important;
+         margin-top: 11px !important; 
+     }
+     .blk-screen {
+         margin: 12px 15px 0 15px;
+         height: 362px;
+         padding: 82px 20px 0 20px;
+     }
+     .blk-screen {
+         margin: 11px 15px 0 15px !important;
+         height: 346px !important;
+         padding: 41px 34px 0 34px !important;
+     }
+     button.btn-allow-mic {
+         margin-left: 0 !important;
+         font-size: 11px;
+     }
+     button.btn-without {
+         margin: 32px 0 0 0 !important;
+         font-size: 11px;
+     }
+     .icons-group {
+         margin: 3% 0 0 7% !important;
+     }
+     i.fa-micro {
+         font-size: 18px !important;
+     }
+     i.fa-vido {
+         font-size: 19px !important;
+         margin: 0 4px 0 4px !important;
+     }
+     i.fa-lapt {
+         font-size: 19px !important;
+     }
+     i.fa-user {
+         font-size: 16px !important;
+         margin: 0 4px 0 4px !important;
+     }   
+     i.fa-pls {
+         font-size: 18px !important;
+     }
+     i.fa-grear {
+         font-size: 19px !important;
+         margin: 0 4px 0 4px !important;
+     }
+     .down-up {
+         margin: 14px 0 0 20px !important
+     }
+     i.fa-cm {
+         margin-top: 6px !important;
+     }
+     .footer {
+         margin: 217px 0 0 0 !important;
+     }
+     a.go-live-btn {
+         margin-top: 12px !important;
+     }
+     .overlay-1 {
+         top: 107px !important;
+     }
+     a.font-nav {
+         font-size: 13px !important;
+         padding: 6px 0 6px 0 !important;
+     }
+     li.nav-item {
+         width: 31% !important;
+     }
+     img.caption-img {
+         width: 17% !important;
+     }
+     .overlay {
+         top: 137px !important;
+         height: 139px !important;
+         left: 8px !important;
+     }
+     .pshow {
+         padding: 55px 0 0 0 !important;
+     }
+     /* does-it-work */
+     .dflex {
+        flex-wrap: wrap;
+    }
+    
+    .cam-img {
+        background-size: 345px 312px !important;
+        /* height: 252px; */
+        height: 284px;
+    }
+    video.video-cs-1 {
+        /* width: 36% !important;
+        margin: 138px 0 0 84px !important; */
+        width: 36% !important;
+        margin: 103px 0 0 81px !important;
+    }
+    h2.welcome-heading {
+        margin-top: 31px;
+    }
+    
+    p.alpha-two {
+        margin: 7px 0 0 0 !important;
+    }
+    p.alpha-one {
+        margin: 49px 0 0 0 !important;
+    }
+    h2.welcome-heading {
+        margin: 21px 0 12px 0;
+    }
+ }
+ @media only screen and (min-device-width: 400px) and (max-device-width: 500px){
+     /* sign up */
+     button.btn-sign-free {
+         width: 56%;
+     }
+     .pad-left {
+         padding-left: 17px;
+     }
+     section.top-mar {
+         margin-top: 41px;
+     }
+     input.email-input {
+         width: 99%;
+     }
+     h2.get-more {
+         font-size: 42px;
+     }
+     p.atw-p {
+         font-size: 14px;
+     }
+     img.img-one {
+         margin-top: -14px;
+     }
+     /* home */
+     a.btn-fb {
+         width: 74%;
+     }
+     a.btn-gog {
+         width: 74%;
+     }
+     a.btn-sign {
+         width: 44%;
+     }
+     /* dashboard */
+     /* ----------- new changes ------------- */
+
+     .bg-pexel-joseph {
+        background-image: url(../image/tv.jpg) !important;
+        background-size: 313px 226px;
+        width: 100%;
+        margin: 0;
+        padding: 22px 0 0 20px;
+    }
+    video.video-cs {
+        width: 272px !important;
+        height: 147px !important;
+        margin: 0 !important;
+    }
+     h2.multiple-dash-h2 {
+        font-size: 34px;
+     }
+     .mar-top {
+        margin-top: 30px;
+     }
+     p.grow-dash-p {
+        font-size: 16px;
+     }
+     a.btn-getstarted {
+        width: 52%;
+        margin-bottom: 20px;
+     }
+     img.restream-dash-img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        max-height: 174px;
+    }
+    img.tv-img {
+        width: 92%;
+    margin: 0 0 0 26px;
+    }
+    
+     /* -------------------- */
+     .main-1 {
+         margin-right: 11px;
+     }
+     a.welcome-heading {
+         font-size: 23px;
+     }
+     button.btn-generate {
+         width: 40% !important;
+         margin-top: 24px;
+         margin-bottom: 19px;
+     }
+     button.btn-copy {
+         width: 29% !important;
+         margin-left: 7px !important;
+     }
+     .sidebar {
+         width: 77px !important;
+     }
+     /* social-channel */
+     button.add-channel-btn {
+         width: 57% !important;
+     }
+     p.enjoy-p {
+        font-size: 22px;
+    }
+     img.fbl-img {
+         margin-bottom: 15px;
+     }
+     .mar-top {
+         margin-right: 0;
+         margin-left: 0;
+     }
+     img.live-img {
+         width: 34% !important;
+         margin-top: 16px;
+     }
+     img.cn-img {
+        margin: 0 0 10px 0;
+     }
+      /* social-fb */
+      .main {
+         margin-left: 10px !important;
+         padding: 0 !important;
+     }
+     .borde-r {
+         border-left: none !important;
+         border-top: 1px solid #c0c0c0c9 !important;
+     }
+     button.conct-fb-btn {
+         margin-top: 15px;
+         margin-bottom: 24px;
+     }
+     h2.about-h2,p.learn-cont-fb-p {
+         margin-left: 0 !important;
+     }
+     .top-mar {
+         margin-top: 79px !important;
+     }
+     h2.about-h2 {
+         margin-top: 23px;
+     }
+     /* sign in */
+     p.already-p-1 {
+         font-size: 11px !important;
+     }    
+     a.sign-up,a.forget {
+         font-size: 16px !important;
+     }
+     /* forget */
+     a.btn-forget {
+         width: 46%;
+     }
+     /* my-account */
+    
+     .fg-mar {
+         margin-left: 28px !important;
+     }
+     input.name-input {
+         width: 90%;
+     }
+     .bg-col-sli {
+         width: 100%;
+         padding: 25px 0 23px 0 !important;
+     }
+     textarea.addres-area {
+         width: 90%;
+     }
+     p.get-more-p {
+        margin: 3px 0 0 36px;
+        text-align: center;
+     }
+     p.u-name-p {
+        margin: 0;
+        text-align: center;
+    }
+     section.footer-1 {
+         margin: 0 !important;
+     }
+     footer.foot-marg {
+         margin: 0 0 0 18%;
+     }
+     /* new-home */
+     section.header {
+        height: 57px;
+     }
+     i.cmt-fa {
+        margin: 0 20px 6px 0;
+     }
+     .box-mar {
+         margin: 5% 18% 0 33% !important;
+     }
+     .box-mar-1 {
+         margin: 7% 18% 0 33% !important;
+     }
+     .border-rad {
+         margin: 10% 13% 3% 28% !important;
+     }
+     .box-3 {
+         width: 100% !important;
+     }
+     p.wht-wod-p {
+         font-size: 20px;
+         margin-left: 46px;
+         line-height: 29px;
+     }
+     a.a-bg-git {
+         margin-top: 312px !important;
+     }
+     /* social-storage */
+     section.tab-socail {
+         margin: 22px 0 0 59px !important;
+     }
+     section.fixed-1 {
+         margin: 6% 0 0 85% !important;
+     }
+     /* studio */
+     .bg-wht-blr {
+        margin: 10px 0 0 -14px;
+     }
+     img.r-img {
+        margin: 10px 0 0 0;
+    }
+     .grid-container{
+         grid-template-columns: 1fr !important;
+         grid-template-rows: 0.4fr 0.4fr 0.4fr ;
+     }
+     .grid-item {
+         padding: 17px !important;
+         margin-top: 19px !important;
+     }
+     .blk-screen {
+         margin: 12px 15px 0 15px;
+         height: 362px;
+         padding: 82px 20px 0 20px;
+     }
+     .blk-screen {
+         margin: 11px 15px 0 15px !important;
+         height: 346px !important;
+         padding: 41px 34px 0 34px !important;
+     }
+     button.btn-allow-mic {
+         margin-left: 0 !important;
+     }
+     button.btn-without {
+         margin: 32px 0 0 0 !important;
+     }
+     .icons-group {
+         margin: 3% 0 0 12% !important;
+     }
+     .down-up {
+         margin: 14px 0 0 20px !important
+     }
+     i.fa-cm {
+         margin-top: 6px !important;
+     }
+     .footer {
+         margin: 217px 0 0 0 !important;
+     }
+     a.go-live-btn {
+         margin-top: 12px !important;
+     }
+     .overlay-1 {
+         top: 107px !important;
+     }
+     a.font-nav {
+         font-size: 13px !important;
+         padding: 6px 0 6px 0 !important;
+     }
+     li.nav-item {
+         width: 31% !important;
+     }
+     img.caption-img {
+         width: 17% !important;
+     }
+     .add-bg-1 {
+         margin-left: 8px !important;
+         margin-top: 11px !important; 
+     }   
+     /* footer */
+     .mab {
+         margin: 0 !important;
+     }
+
+     /* does-it-work */
+     .dflex {
+        flex-wrap: wrap;
+    }
+    p.alpha-one {
+        margin: 0;
+    }
+    .cam-img {
+        background-size: 344px 312px !important;
+        height: 252px;
+    }
+    video.video-cs-1 {
+        /* width: 31% !important;
+        margin: 127px 0 0 84px !important; */
+        width: 35% !important;
+        margin: 93px 0 0 77px !important;
+    }
+    h2.welcome-heading {
+        margin-top: 31px;
+    }
+    p.alpha-two {
+        margin: 7px 0 0 0 !important;
+    }
+ }
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+     /* footer */
+     .mab {
+         margin: 0 0 0 18px !important;
+     }
+     /* sign up */
+     button.btn-sign-free {
+         width: 56%;
+     }
+     input.email-input {
+         width: 93%;
+     }
+     h2.get-more {
+         font-size: 41px;
+     }
+     p.atw-p {
+         font-size: 17px;
+     }
+ 
+     /* home */
+     a.btn-fb,a.btn-gog {
+         width: 73%;
+         font-size: 17px;
+     }
+     a.btn-sign{
+         width: 61%;
+         font-size: 17px;
+     }
+ 
+     /* dashboar */
+     /* --------changes css------------ */
+ 
+ video.video-cs {
+    width: 277px !important;
+    height: 218px !important;
+}
+ .bg-pexel-joseph {
+    background-size: 329px 299px;
+    height: 323px;
+    width: 100%;
+    margin: 0;
+ }
+ a.btn-getstarted {
+     width: 48% !important;
+ }
+ h2.multiple-dash-h2 {
+    font-size: 34px;
+ }
+ img.restream-dash-img {
+    max-height: 198px;
+}
+ /* ----------------------- */
+     button.btn-copy {
+         margin-left: 26px !important;
+     }
+     button.btn-generate {
+         width: 35%;
+     }
+     /* social-channel */
+     button.add-channel-btn {
+         width: 23% !important;
+     }
+      /* social-fb */
+      .main {
+         margin-left: 10px !important;
+         padding: 0 !important;
+     }
+     .top-mar {
+        margin-top: 87px;
+    }
+     /* forget */
+     a.btn-forget {
+         width: 60%;
+     }
+     /* new-home */
+     .box-mar {
+         margin: 7% 0 0 55% !important;
+     }
+     .box-mar-1 {
+         margin: 7% 55% 0 0 !important;
+     }
+     /* social-storage */
+     section.fixed-1 {
+         margin: 6% 0 0 91% !important;
+     }
+     p.enjoy-p {
+        font-size: 15px;
+    }
+    img.moon-img {
+        margin: 56px 0 0 11px;
+    }
+     /* studio */
+     .grid-container {
+         grid-template-columns: 118px 320px auto !important;
+     }
+     .footer {
+         margin: 230px 0 0 0 !important;
+     }
+     .overlay-1 {
+         top: 164px !important;
+     }
+ 
+     a.font-nav {
+         font-size: 10px !important;
+         padding: 6px 0 6px 0 !important;
+     }
+     li.nav-item {
+         width: 31% !important;
+     }
+     img.caption-img {
+         width: 17% !important;
+     }
+     img.tr-img-1 {
+         width: 20% !important;
+     }
+     .add-bg-1 {
+         padding: 0 27px 6px 9px !important;
+     }
+     .icons-group {
+         margin: 3% 0 0 20% !important;
+     }
+     button.btn-allow-mic {
+         width: 100% !important;
+         font-size: 9px !important;
+         margin-left: 0 !important;
+     }
+     button.btn-without {
+         margin: 32px 0 0 0 !important;
+         font-size: 9px !important;
+     }
+     img.default-img,img.news-img {
+         width: 20%;
+     }
+     a.bord-img, a.bord-img-1,a.bord-img-2 {
+         padding: 0 0 6px 8px !important;
+     }
+     span.default-graphics {
+         font-size: 11px !important;
+     }
+     .icons-group {
+         margin: 3% 0 0 6% !important;
+     }
+     form.add-des-mar {
+         margin-left: 26% !important;
+     }
+     .blk-screen {
+         height: 286px !important;
+         padding: 42px 19px 0 19px !important;
+     }
+     p.access-camera-p {
+         font-size: 20px !important;
+     }
+      /* does-it-work */
+      .cam-img {
+        background-size: 259px 301px !important;
+    }
+    video.video-cs-1 {
+        width: 14% !important;
+        /* margin: 156px 0 0 46px !important; */
+        margin: 108px 0 0 44px !important;
+    }
+    h2.welcome-heading {
+        margin-top: 30px;
+    }
+    img.cam-img-1 {
+        height: 301px !important;
+    }
+    .one {
+        height: 301px !important;
+    }
+     p.alpha-two {
+        font-size: 57px !important;
+        margin: 42px 0 0 0 !important;
+    }
+    p.alpha-one {
+        font-size: 57px !important;
+        margin: 42px 0 0 0 !important;
+    }
+    p.add-2 {
+        font-size: 13px !important;
+    }
+    a.add-channel-btn {
+        width: 55% !important;
+        font-size: 12px;
+    }
+    .go-li-btn {
+        font-size: 12px;
+    }
+ }
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1215px){
+     /* sign up */
+     button.btn-sign-free {
+         width: 43%;
+     }
+     p.atw-p {
+         font-size: 16px;
+     }
+     input.email-input {
+         width: 76%;
+     }
+     /* home */
+     a.btn-sign {
+         width: 40%;
+     }
+     /* social-fb */
+     .main {
+         margin-left: 24px !important;
+         padding: 0 !important;
+     }
+     .top-mar {
+        margin-top: 96px;
+    }
+     p.learn-cont-fb-p {
+         font-size: 16px !important;
+     }
+     /* forget */
+     a.btn-forget {
+         width: 39%;
+     }
+     /* new-home */
+     .box-mar {
+         margin: 7% 0 0 67% !important;
+     }
+     .box-mar-1 {
+         margin: 7% 67% 0 0 !important;
+     }
+     /* social-storage */
+     section.fixed-1 {
+         margin: 6% 0 0 93% !important;
+     }
+     p.enjoy-p {
+        font-size: 22px !important;
+    }
+     /* studio */
+     .grid-container {
+         grid-template-columns: 174px 466px auto !important;
+     }
+     .footer {
+         margin: 230px 0 0 0 !important;
+     }
+     .overlay-1 {
+         top: 164px !important;
+     }
+ 
+     a.font-nav {
+         font-size: 10px !important;
+         padding: 6px 0 6px 0 !important;
+     }
+     li.nav-item {
+         width: 31% !important;
+     }
+     img.caption-img {
+         width: 17% !important;
+     }
+     img.tr-img-1 {
+         width: 20% !important;
+     }
+     .add-bg-1 {
+         padding: 0 27px 6px 9px !important;
+     }
+     .icons-group {
+         margin: 3% 0 0 20% !important;
+     }
+     button.btn-allow-mic {
+         width: 100% !important;
+         font-size: 10px !important;
+         margin-left: 0 !important;
+     }
+     button.btn-without {
+         margin: 32px 0 0 0 !important;
+         font-size: 10px !important;
+     }
+     form.add-des-mar {
+         margin-left: 26% !important;
+     }
+     /* does-it-work */
+    
+     p.alpha-two {
+        margin: 11px 0 0 0 !important;
+    }
+    p.alpha-one {
+        margin: 19px 0 0 18px !important;
+    }
+    a.add-channel-btn {
+        width: 42% !important;
+    }
+    .one {
+        height: 365px !important;
+    }
+    p.add-2 {
+        font-size: 20px !important;
+    }
+    .cam-img {
+        background-size: 351px 390px !important;
+    }
+    video.video-cs-1 {
+        width: 14% !important;
+        /* margin: 182px 0 0 61px !important; */
+        margin: 164px 0 0 59px !important
+    }
+    /* app-dashboard */
+    .bg-pexel-joseph {
+        margin: 0 0 0 39px;
+    }
 }
