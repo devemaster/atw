@@ -81,6 +81,7 @@ button.btn-sign-free {
 }
 a.btn-sign-free {
     background: red;
+    background-color: red;
     color: #fff;
     width: 30%;
     height: 44px;
