@@ -347,6 +347,12 @@ button.add-channel-btn {
     font-size: 18px;
     font-weight: 700;
 }
+a.add-channels-btn {
+    color: #fff;
+    background: red;
+    margin: 12px 0 0 0;
+    width: 20%;
+}
 img.fbl-img {
     width: 100%;
     cursor: pointer;
@@ -1411,7 +1417,16 @@ a.add-channel-btn {
     background: red;
     color: #fff;
     margin: 21px 0 0 0;
-    width: 41%;
+    width: 19%;
+}
+a.add-channel-btnn {
+    background: red;
+    color: #fff;
+    margin: 21px 0 0 0;
+    width: 40%;
+}
+a.add-channel-btnn:hover{
+    color: #fff;
 }
 a.go-li-btn {
     background: red;
@@ -1426,7 +1441,7 @@ a.go-li-btn:hover,a.btn-forget:hover,
 a.btn-fb:hover,a.btn-gog:hover,
 a.btn-sign:hover,button.btn-submit:hover,
 a.btn-sign-free:hover,button.btn-sign-free:hover,
-button.add-channel-btn:hover,
+a.add-channel-btn:hover,
 button.conct-fb-btn:hover,
 button.btn-allow-mic:hover,
 a.go-live-btn:hover {
@@ -1439,6 +1454,9 @@ a.go-live-btn:hover {
          width: 56%;
      font-size: 16px;
      }
+     a.add-channel-btnn {
+        width: 42% !important;
+    }
      .mab {
          margin: 0 !important;
      }
@@ -2140,6 +2158,10 @@ video.video-cs {
      .mab {
          margin: 0 0 0 18px !important;
      }
+     a.add-channel-btnn {
+        width: 52%;
+        font-size: 13px;
+    }
      /* sign up */
      button.btn-sign-free {
          width: 56%;
