@@ -1581,6 +1581,9 @@ video.video-cs {
          margin-left: 5px;
      }
      /* social channel */
+     a.add-channel-btn {
+        width: 53%;
+    }
      img.cn-img {
         margin: 0 0 9px 0;
     }
@@ -1895,7 +1898,7 @@ video.video-cs {
         background-size: 313px 226px;
         width: 100%;
         margin: 0;
-        padding: 22px 0 0 20px;
+        padding: 22px 0 0 19px;
     }
     video.video-cs {
         width: 272px !important;
@@ -1965,6 +1968,9 @@ video.video-cs {
      img.cn-img {
         margin: 0 0 10px 0;
      }
+     a.add-channel-btn {
+        width: 39%;
+    }
       /* social-fb */
       .main {
          margin-left: 10px !important;
