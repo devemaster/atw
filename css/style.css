@@ -1323,6 +1323,14 @@ input.email-inp:focus {
 
 
     /* footer */
+    img.fbl-img:hover {
+        transition: 500ms linear;
+        width: 104%;
+        height: 174px;
+        box-shadow: 0 0 20px 5px #fff;
+    }
+    
+    
     p.fooot {
         color: #fff;
         text-align: center;
