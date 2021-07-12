@@ -1324,8 +1324,7 @@ input.email-inp:focus {
 
     /* footer */
     p.fooot {
-        color: #000;
-        background: #fff;
+        color: #fff;
         text-align: center;
         padding: 12px 0 14px 0;
         font-size: 31px;
