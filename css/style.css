@@ -1582,6 +1582,65 @@ a.go-live-btn:hover {
 }
 
 /* pricing */
+
+.table-fixed tbody {
+    height: 600px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+th {
+color: #fff;
+}
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+}
+
+.table-fixed thead > tr > th::after {
+        content: '';
+        clear: both;
+        display: block;
+}
+th.twoo {
+    min-width: 180px;
+    padding: 16px 20px;
+    text-align: center;
+}
+td.twoo {
+    min-width: 179px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 12px 0;
+}
+td.twoo-1 {
+    min-width: 179px;
+    color: #fff;
+    text-align: center;
+}
+th.onee {
+    min-width: 403px;
+    padding: 10px 20px;
+}
+td.onee {
+    min-width: 403px;
+    color: #fff;
+    padding: 12px 20px;
+}
+.table thead th {
+    border-bottom: none;
+}
+
+
 h2.pricing-h2 {
     font-size: 36px;
     line-height: 1.11;
@@ -2324,7 +2383,8 @@ i.faa-env {
     }
      /* about-us */
      section.restream-allow {
-        background-size: 320px 317px;
+        background-size: 1px;
+        padding: 83px 0 86px 0;
     }
     section.broadcast {
         padding: 37px;
@@ -2863,7 +2923,8 @@ video.video-cs {
     }
      /* about-us */
      section.restream-allow {
-        background-size: 414px 429px;
+        background-size: 1px;
+        padding: 83px 0 86px 0;
     }
     section.broadcast {
         padding: 37px;
@@ -2935,6 +2996,9 @@ video.video-cs {
      img.img-one {
          margin-top: 4px;
      }
+     .pad-right {
+        padding-right: 14px;
+    }
      /* home */
      a.btn-fb {
          width: 74%;
@@ -3505,8 +3569,106 @@ video.video-cs {
     .go-li-btn {
         font-size: 12px;
     }
+     /* pricing */
+     .bord-price,.bord-price-1 {
+        padding: 26px 10px;
+     }
+     p.free-price {
+        font-size: 29px;
+     }
+     ul li.li-right::before {
+        left: 27px;
+    }
+    p.dolar-price {
+        font-size: 35px;
+    }
+    li.li-right {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    i.faa-info {
+        color: silver;
+        font-size: 12px;
+    }
+
+
+     th.onee {
+        min-width: 214px;
+        padding: 10px 4px;
+     }
+     th.twoo {
+        min-width: 105px;
+        padding: 16px 0;
+     }
+     a.get-start-btn-1 {
+        font-size: 12px;
+        width: 83%;
+        padding: 2px 3px 2px 3px;
+        margin-top: 41px;
+     }
+     p.zero-th {
+        font-size: 20px;
+     }
+     b.b-platform {
+        font-size: 12px;
+    }
+     a.get-start-btn {
+        padding: 4px 9px 4px 7px;
+        font-size: 10px;
+    }
+     th.twoo-1 {
+        min-width: 104px;
+        padding: 0;
+     }
+     p.billed-p {
+        font-size: 10px;
+     }
+     td.onee {
+        min-width: 229px;
+        padding: 12px 0;
+     }
+     td.twoo {
+        min-width: 101px;
+     }
+     i.faa-info-1 {
+        padding: 0;
+     }
+     i.faa-info-2 {
+        padding: 0;
+     }
+     td.hor-1 {
+        font-size: 14px;
+        padding: 13px 0 14px 0;
+    }
+    a.new-bnt {
+        margin-left: 0;
+    }
+     td.twoo-1 {
+        min-width: 100px;
+     }
+     i.faa-info-4 {
+        padding: 0 0 0 0;
+     }
+     i.faa-info-5 {
+        padding: 0;
+     }
+     i.faa-info-6 {
+        padding: 0;
+     }
+     p.our-plans-p {
+        font-size: 18px;
+    }
+    p.monthly-plans-p {
+        font-size: 16px;
+    }
+    p.free-th {
+        margin: 0;
+        font-size: 18px;
+    }
  }
  @media only screen and (min-device-width: 1024px) and (max-device-width: 1215px){
+     
      /* landing */
      img.restream-dash-img {
         max-height: 276px;
@@ -3672,4 +3834,41 @@ video.video-cs {
     .bg-pexel-joseph {
         margin: 0 0 0 39px;
     }
+    /* pricing */
+    th.onee {
+        min-width: 214px;
+     }
+     th.twoo {
+        min-width: 147px;
+        padding: 16px 10px;
+     }
+     th.twoo-1 {
+        min-width: 147px;
+        padding: 0 10px 0 10px;
+     }
+     td.onee {
+        min-width: 235px;
+        padding: 12px 0;
+     }
+     td.twoo {
+        min-width: 147px;
+     }
+     i.faa-info-1 {
+        padding: 0;
+     }
+     i.faa-info-2 {
+        padding: 0 0 0 28px;
+     }
+     td.twoo-1 {
+        min-width: 148px;
+     }
+     i.faa-info-4 {
+        padding: 0 0 0 0;
+     }
+     i.faa-info-5 {
+        padding: 0;
+     }
+     i.faa-info-6 {
+        padding: 0;
+     }
 }
