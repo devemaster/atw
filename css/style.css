@@ -3884,6 +3884,24 @@ section.understand-audiwnce {
     font-size: 10px;
     padding: 4px 1px 4px 1px;
   }
+  /* chat */
+  h4.keep-y,
+  h4.dis-chat-box-h4,
+  h4.filter-the-h4 {
+    font-size: 32px;
+  }
+  section.filter-let {
+    padding: 20px 0 74px 0;
+  }
+  h3.chat-overlay-h3 {
+    font-size: 21px;
+  }
+  p.chat-stream-p {
+    font-size: 15px;
+  }
+  p.offensive-para {
+    font-size: 19px;
+  }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1215px) {
   /* landing */
@@ -4091,5 +4109,15 @@ section.understand-audiwnce {
   }
   i.faa-info-6 {
     padding: 0;
+  }
+  /* chat */
+  section.filter-let {
+    padding: 20px 0 70px 0;
+  }
+  .portfolio-blue {
+    padding: 128px 0 66px 0;
+  }
+  section.display-chat {
+    padding: 42px 0 16px 0;
   }
 }
