@@ -2290,6 +2290,117 @@ i.faa-env {
     font-size: 27px;
     cursor: pointer;
 }
+/* chat */
+section.keep-chat {
+    padding: 83px 0 86px 20px;
+}
+h4.keep-y {
+    font-size: 59px;
+    line-height: 1.0625;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+p.tab-para {
+    font-size: 28px;
+    margin-bottom: 42px;
+    line-height: 35px;
+    color: lightgrey;
+}
+a.down-windo-btn {
+    background: red;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 0 8px 0;
+    width: 100%;
+    font-weight: 800;
+}
+i.faa-wind {
+    padding: 0 7px 0 0;
+}
+a.opn-browsr-btn {
+    color: #fff;
+    padding: 8px 0 8px 0;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 47%;
+}
+p.get-it-para {
+    margin-top: 21px;
+    font-size: 18px;
+}
+p.get-it-para-1 {
+    margin-top: 21px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+a.a-mac {
+    color: #fff;
+}
+a.opn-browsr-btn:hover {
+    color: #000;
+    background: #fff;
+}
+a.down-windo-btn:hover {
+    color: #fff;
+}
+section.display-chat {
+    background: #bdbbbd;
+    color: #000;
+    padding: 106px 0;
+}
+h4.dis-chat-box-h4 {
+    line-height: 1.16;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+h3.chat-overlay-h3 {
+    font-size: 26px;
+    line-height: 1.3846;
+    margin-bottom: 14px;
+    font-weight: 800;
+}
+p.chat-stream-p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+h4.filter-the-h4 {
+    line-height: 1.16;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+section.filter-let {
+    padding: 147px 0 147px 0;
+}
+section.benifts-chat {
+    padding: 100px 0 100px 0;
+}
+p.offensive-para {
+    font-size: 26px;
+}
+a.btn-win {
+    background: red;
+    color: #fff;
+    width: 81%;
+    padding: 7px 0 7px 0;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.portfolio-blue {
+    background:url('../image/blue-bg.png');
+    background-size: cover;
+    height: 579px;
+}
+img.chat-sec-1-img {
+    width: 100%;
+}
+a.btn-win:hover {
+    color:#fff;
+}
+
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 399px){
      /* landing */
@@ -2858,6 +2969,10 @@ video.video-cs {
     h2.welcome-heading {
         margin: 21px 0 12px 0;
     }
+    /* pricing */
+    section.compny-feature {
+        display: none;
+    }
  }
  @media only screen and (min-device-width: 400px) and (max-device-width: 500px){
      /* landing */
@@ -3279,6 +3394,10 @@ video.video-cs {
     }
     p.alpha-two {
         margin: 7px 0 0 0 !important;
+    }
+    /* pricing */
+    section.compny-feature {
+        display: none;
     }
  }
  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
