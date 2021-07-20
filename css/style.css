@@ -2476,6 +2476,24 @@ section.understand-audiwnce {
   padding: 72px 0 122px 0;
 }
 /* studio-page */
+img.uncle-hand-img {
+  width: 100%;
+}
+.uncle-img-bg {
+  background: url("../../atw/image/uncle-hand.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  height: 280px;
+  background-size: 634px 283px;
+}
+video.video-uncle-hand {
+  width: 37%;
+  height: 118px;
+  position: absolute;
+  right: 145px;
+  top: 54px;
+}
 section.reach-audience {
   background: #000;
   color: #fff;
@@ -2520,6 +2538,32 @@ p.compy-indsu-p {
 p.stream-comp-p {
   font-size: 18px;
   margin: 0;
+}
+
+/* contact-us */
+.bg-contact-sli {
+  /* background: #c0c0c04a; */
+  padding: 25px 35px 23px 35px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 93%;
+}
+.bg-img-contact-us {
+  background: url("../image/contact-us-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  margin: 0 14px 0 0;
+  height: 553px;
+}
+.con-pad {
+  padding: 0 0 0 47px;
+}
+h2.cont-us {
+  margin: 18px 0 0 72px;
+  font-size: 28px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 399px) {
