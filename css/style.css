@@ -2470,9 +2470,15 @@ section.understand-audiwnce {
 }
 /* studio-page */
 section.reach-audience {
-  background: #f6f3f6;
-  color: #000;
+  background: #000;
+  color: #fff;
   padding: 135px 0 135px 0;
+}
+img.aunty-headphone-img {
+  width: 100%;
+}
+img.zenbook-img {
+  width: 100%;
 }
 p.tab-para-1 {
   font-size: 28px;
@@ -2492,11 +2498,11 @@ img.reah-your-img {
   margin: 23px 0 0 0;
 }
 .boxed-1 {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   border-radius: 7px;
   padding: 28px;
-  box-shadow: 8px 8px 7px 0 #00000033;
+  box-shadow: 11px 12px 15px 0 #fffcfc54;
 }
 p.compy-indsu-p {
   font-size: 26px;
