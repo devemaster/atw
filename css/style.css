@@ -129,7 +129,7 @@ a.btn-sign-free {
   background-color: #ff0000;
   padding-top: 7px;
   color: #fff;
-  width: 30%;
+  width: 40%;
   height: 44px;
   font-weight: 500;
   font-size: 19px;
@@ -152,6 +152,12 @@ a.btn-sign {
   font-weight: 700;
   font-size: 19px;
   margin-bottom: 16px;
+}
+i.faa-aple {
+  padding: 0 10px 0 0;
+}
+i.faa-gole {
+  padding: 0 10px 0 0;
 }
 p.already-p {
   font-size: 20px;
@@ -597,6 +603,7 @@ a.go-live-btn {
 i.fa-arrow {
   font-size: 26px;
   padding: 3px 0 0 12px;
+  color: #fff;
 }
 a.navbar-brand-studio {
   color: #fff;
