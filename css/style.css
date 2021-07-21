@@ -1974,6 +1974,19 @@ input:checked + .slider:before {
 }
 
 /* -------landing UI------ */
+.img-bg-home {
+  background: url(../image/home-bg-image.png);
+  background-size: 651px 345px;
+  background-repeat: no-repeat;
+}
+.img-bg-home-1 {
+  background: url(../image/home-image.png);
+  background-size: 651px 345px;
+  background-repeat: no-repeat;
+}
+img.home-ima-img {
+  width: 100%;
+}
 section.be-everywhere {
   padding-top: 48px;
 }
@@ -2303,6 +2316,7 @@ h4.keep-y {
   line-height: 1.0625;
   font-weight: 800;
   margin-bottom: 15px;
+  text-align: center;
 }
 p.tab-para {
   font-size: 28px;
@@ -2476,7 +2490,16 @@ section.understand-audiwnce {
   padding: 72px 0 122px 0;
 }
 /* studio-page */
+h4.keep-y-1 {
+  font-size: 38px;
+  line-height: 1.0625;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
 img.uncle-hand-img {
+  width: 100%;
+}
+img.make-your-b-img {
   width: 100%;
 }
 .uncle-img-bg {
@@ -2518,6 +2541,7 @@ p.satnd-out-p {
   font-size: 28px;
   margin-bottom: 30px;
   line-height: 35px;
+  text-align: center;
 }
 img.reah-your-img {
   margin: 23px 0 0 0;
@@ -2542,7 +2566,7 @@ p.stream-comp-p {
 
 /* contact-us */
 .bg-contact-sli {
-  /* background: #c0c0c04a; */
+  background: #ffffff4d;
   padding: 25px 35px 23px 35px;
   border-radius: 8px;
   margin-bottom: 16px;
@@ -2552,9 +2576,23 @@ p.stream-comp-p {
   background: url("../image/contact-us-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
   margin: 0 14px 0 0;
   height: 553px;
+}
+section.address-block {
+  padding: 100px 0 100px 0;
+}
+.bg-contact {
+  background: #fff;
+  color: #000;
+  padding: 19px;
+  border-radius: 10px;
+  box-shadow: 9px 9px 20px 0 #ffffff8f;
+  cursor: pointer;
+}
+.bg-contact:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .con-pad {
   padding: 0 0 0 47px;
@@ -2564,6 +2602,37 @@ h2.cont-us {
   font-size: 28px;
   font-weight: 100;
   letter-spacing: 1px;
+}
+p.contact-ph {
+  font-size: 19px;
+}
+p.contact-num {
+  font-size: 16px;
+  margin: 0;
+}
+i.envelope-faa {
+  font-size: 27px;
+  padding: 9px;
+  border: 1px solid #f00;
+  border-style: dotted;
+  border-radius: 22px;
+  color: red;
+}
+i.phonee-faa {
+  font-size: 27px;
+  padding: 8px 11px 8px 11px;
+  border: 1px solid #f00;
+  border-style: dotted;
+  border-radius: 22px;
+  color: red;
+}
+i.map-faa {
+  font-size: 27px;
+  padding: 8px 14px 8px 14px;
+  border: 1px solid #f00;
+  border-style: dotted;
+  border-radius: 22px;
+  color: red;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 399px) {
