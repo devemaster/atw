@@ -135,6 +135,16 @@ a.btn-sign-free {
   font-size: 19px;
   margin-bottom: 16px;
 }
+a.btn-sign-free-blue {
+  background: blue;
+  padding-top: 7px;
+  color: #fff;
+  width: 40%;
+  height: 44px;
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 16px;
+}
 a.btn-forget {
   background: red;
   color: #fff;
@@ -388,6 +398,23 @@ img.restream-dash-img {
 }
 
 /* social channel */
+h1.streamers_awt_h1 {
+  margin-bottom: 24px;
+  font-size: 50px;
+  font-weight: 800;
+}
+p.streamers {
+  line-height: 1.48;
+  font-size: 26px;
+  color: silver;
+}
+section.social_channel {
+  padding: 50px 0 100px 0;
+}
+img.cover-img {
+  width: 100%;
+  margin-top: 63px;
+}
 img.live-img {
   width: 12%;
 }
@@ -419,10 +446,6 @@ h2.media-h2 {
   font-weight: 700;
   letter-spacing: 2px;
 }
-/* img.moon-img {
-    width: 100%;
-    margin: 0 0 0 11px;
-} */
 img.moon-img {
   box-shadow: 20px 20px 20px 0 #ffffff21;
   width: 100%;
@@ -454,6 +477,9 @@ p.senior-digi-p {
 img.cn-img {
   width: 67%;
   background: #fff;
+}
+.margin-t-b {
+  margin: 111px 0 111px 88px;
 }
 
 /* social-fb */
@@ -1974,6 +2000,20 @@ input:checked + .slider:before {
 }
 
 /* -------landing UI------ */
+.cam-img-1 {
+  background: url(../image/nikon-new.jpg);
+  height: 402px;
+  background-size: 454px 392px;
+  background-repeat: no-repeat;
+}
+.video-video-land {
+  position: absolute;
+  z-index: 99;
+  width: 35%;
+  height: 221px;
+  margin: 134px 0 0 89px;
+  border-radius: 0;
+}
 img.cat-img.rasi {
   width: 100%;
 }
@@ -2021,6 +2061,7 @@ section.how-it {
 p.works-how-p {
   font-size: 42px;
   font-weight: 800;
+  margin-top: 55px;
 }
 p.eno-p {
   font-size: 58px;
@@ -2318,8 +2359,14 @@ h4.keep-y {
   font-size: 38px;
   line-height: 1.0625;
   font-weight: 800;
-  margin-bottom: 15px;
+  margin-bottom: 80px;
   text-align: center;
+}
+h4.keep-y-10 {
+  font-size: 46px;
+  line-height: 1.0625;
+  font-weight: 800;
+  margin-bottom: 28px;
 }
 p.tab-para {
   font-size: 28px;
@@ -2549,6 +2596,9 @@ p.satnd-out-p {
 }
 img.reah-your-img {
   margin: 23px 0 0 0;
+}
+.boxed-1:hover {
+  transform: translateY(-5px);
 }
 .boxed-1 {
   background: #fff;
