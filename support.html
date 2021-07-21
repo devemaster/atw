@@ -19,141 +19,106 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
-
-    <style>
-      input.name-input {
-        border-radius: 29px;
-      }
-    </style>
   </head>
-  <body class="bg-dark-1" style="overflow-x: hidden">
-    <div class="sidebar-1">
-      <div>
-        <a class="a-bg-2" href="#">
-          <img class="doum-img" src="./image/download.jpg" alt="" />
-        </a>
-        <a
-          class="a-bg"
-          href="./new-home.html"
-          data-toggle="tooltip"
-          data-placement="top"
-          title="Home"
+  <body class="bg-dark-1">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark-1 pad-left">
+        <a class="navbar-brand-1" href="./landing.html">AWTSTREAM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <i class="fa home-fa fa-home"></i>
-        </a>
-
-        <a
-          class="a-bg"
-          href="./social-storage.html"
-          data-toggle="tooltip"
-          data-placement="top"
-          title="Video Storage"
-        >
-          <i class="fa colud-fa fa-cloud" aria-hidden="true"></i>
-        </a>
-
-        <a class="a-bg" href="#">
-          <i class="fa ellic-fa fa-ellipsis-h" aria-hidden="true"></i>
-        </a>
-      </div>
-      <div>
-        <a
-          class="a-bg"
-          href="#"
-          data-toggle="modal"
-          data-target="#exampleModal"
-        >
-          <img class="doum-img" src="./image/download.jpg" alt="" />
-        </a>
-      </div>
-    </div>
-    <section class="foot-new">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <h2 class="cont-us">Support</h2>
-          </div>
-          <div class="col-md-6"></div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Products <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="./studio-page.html">Studio</a>
+                  <a href="./app-dashboard.html">Multistreaming</a>
+                  <a href="./chat.html">Chat</a>
+                  <a href="./analytics.html">Analytics</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item yt">
+              <a class="nav-link" href="./about-us.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./socail-channel.html">Customer</a>
+            </li>
+          </ul>
+          <form class="form-inline pad-right my-2 my-lg-0">
+            <a href="./sign-up.html" class="login">Log in</a>
+          </form>
         </div>
-      </div>
-    </section>
+      </nav>
+    </header>
 
-    <section class="tab-socail">
+    <section class="contact_us_bg-1">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 con-pad">
-            <div class="bg-contact-sli">
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Phone Number</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Phone Number"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Subject</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Message</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Message"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Image Attach</label>
-                  <input type="file" />
-                </div>
-
-                <div class="row">
-                  <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-submit">Submit</button>
-                  </div>
-                </div>
-              </form>
+          <div class="col-md-12 text-center">
+            <h4 class="support_h4 text-center">Support</h4>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div class="d-flex">
+              <input
+                type="text"
+                placeholder="Write your message here..."
+                class="form-control support-input"
+              />
+              <i
+                class="fa faa_search fa-paper-plane"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                aria-hidden="true"
+              ></i>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="bg-img-contact-us"></div>
-          </div>
+          <div class="col-md-4"></div>
         </div>
       </div>
     </section>
 
-    <section class="mt-5 footer-1">
+    <section class="box_supprt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4 text-center">
+            <div class="col_support_box-1">
+              <i class="fa faa_map_sign fa-map-signs" aria-hidden="true"></i>
+              <p class="before_sign">Texhnical Issue</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="col_support_box-1">
+              <i class="fa faa_map_sign fa-book" aria-hidden="true"></i>
+              <p class="before_sign">Sales</p>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footers">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <footer class="page-footer foot-marg font-small blue pt-4">
+            <footer class="page-footer font-small blue pt-4">
               <div class="container-fluid text-center text-md-left">
                 <div class="row hr">
                   <div class="col-md-2 mt-md-0 mt-3">
@@ -199,7 +164,7 @@
                     </ul>
                   </div>
 
-                  <div class="col-md-2 mb-md-0 mb-3 mab">
+                  <div class="col-md-3 mb-md-0 mb-3 mab">
                     <h5 class="footer-title">Follow</h5>
                     <ul class="list-unstyled">
                       <li>
@@ -243,6 +208,115 @@
         </div>
       </div>
     </section>
+
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="exampleModalLongTitle">
+              Support
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-dark"
+                      >Your name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-dark"
+                      >Your email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-dark"
+                      >Phone number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-dark"
+                      >Subjects</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="text-dark"
+                  >Message</label
+                >
+                <textarea
+                  name="add-ress"
+                  id=""
+                  placeholder="Write your message here..."
+                  class="form-control"
+                ></textarea>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-sun_bit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./css/bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <script src="./css/bootstrap/js/bootstrap.bundle.min.js"></script>
