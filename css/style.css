@@ -2914,7 +2914,14 @@ section.contact_us {
   p.tab-para {
     font-size: 23px;
   }
-
+  /* sign-in */
+  a.btn-sign-free {
+    width: 79%;
+  }
+  a.btn-sign-free-blue {
+    width: 79%;
+    margin-bottom: 45px;
+  }
   /* support */
   .col_support_box-1 {
     margin-bottom: 13px;
@@ -3188,7 +3195,6 @@ section.contact_us {
     margin: 0;
   }
   .bg-pexel-joseph {
-    /* background-size: 342px 236px; */
     background-size: 329px 236px;
     height: 304px;
     width: 100%;
@@ -3237,6 +3243,18 @@ section.contact_us {
     margin-left: 5px;
   }
   /* social channel */
+  h1.streamers_awt_h1 {
+    font-size: 41px;
+  }
+  p.streamers {
+    font-size: 24px;
+  }
+  section.social_channel {
+    padding: 50px 0 74px 0;
+  }
+  .margin-t-b {
+    margin: 111px 0 0 72px;
+  }
   a.add-channel-btn {
     width: 53%;
   }
@@ -3303,7 +3321,8 @@ section.contact_us {
   /* my-account */
 
   .fg-mar {
-    margin-left: 28px !important;
+    margin-left: 15px;
+    margin-right: 11px;
   }
   input.name-input {
     width: 90%;
@@ -3351,9 +3370,6 @@ section.contact_us {
   p.wlcm-p {
     margin-left: 50px;
   }
-  /* a.a-bg-git {
-         margin-top: 166px !important;
-     } */
 
   /* social-storage */
   section.fixed-1 {
@@ -3523,6 +3539,15 @@ section.contact_us {
   }
   .bord-price {
     margin-bottom: 23px;
+  }
+  span.monthly-sp {
+    margin: 0 6px 0 7px;
+  }
+  a.link-a {
+    margin-left: 15px;
+  }
+  .bg-sil {
+    margin: 0;
   }
 }
 @media only screen and (min-device-width: 400px) and (max-device-width: 500px) {
@@ -3791,6 +3816,14 @@ section.contact_us {
   .pad-right {
     padding-right: 14px;
   }
+  /* sign-in */
+  a.btn-sign-free {
+    width: 60%;
+  }
+  a.btn-sign-free-blue {
+    width: 60%;
+    margin-bottom: 61px;
+  }
   /* home */
   a.btn-fb {
     width: 74%;
@@ -3859,6 +3892,15 @@ section.contact_us {
     width: 77px !important;
   }
   /* social-channel */
+  h1.streamers_awt_h1 {
+    font-size: 37px;
+  }
+  p.streamers {
+    font-size: 24px;
+  }
+  section.social_channel {
+    padding: 50px 0 21px 0;
+  }
   button.add-channel-btn {
     width: 57% !important;
   }
@@ -3923,7 +3965,8 @@ section.contact_us {
   /* my-account */
 
   .fg-mar {
-    margin-left: 28px !important;
+    margin-left: 15px;
+    margin-right: 11px;
   }
   input.name-input {
     width: 90%;
@@ -4083,6 +4126,9 @@ section.contact_us {
   }
   .bord-price {
     margin-bottom: 23px;
+  }
+  .bg-sil {
+    margin: 0;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -4271,6 +4317,11 @@ section.contact_us {
     width: 52%;
     font-size: 13px;
   }
+  /* sign-in */
+  a.btn-sign-free,
+  a.btn-sign-free-blue {
+    width: 73%;
+  }
   /* sign up */
   button.btn-sign-free {
     width: 56%;
@@ -4326,6 +4377,12 @@ section.contact_us {
     width: 35%;
   }
   /* social-channel */
+  h1.streamers_awt_h1 {
+    font-size: 40px;
+  }
+  p.streamers {
+    font-size: 19px;
+  }
   button.add-channel-btn {
     width: 23% !important;
   }
@@ -4589,6 +4646,11 @@ section.contact_us {
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1215px) {
+  /* sign in */
+  a.btn-sign-free,
+  a.btn-sign-free-blue {
+    width: 53%;
+  }
   /* new-studio-page */
   video.video-uncle-hand {
     width: 49%;
@@ -4694,7 +4756,8 @@ section.contact_us {
     width: 39%;
   }
   .mab {
-    margin: 0 0 0 41px;
+    /* margin: 0 0 0 41px; */
+    margin: 0 0 0 34px;
   }
   p.fooot {
     font-size: 22px;
@@ -4777,7 +4840,6 @@ section.contact_us {
   }
   video.video-cs-1 {
     width: 14% !important;
-    /* margin: 182px 0 0 61px !important; */
     margin: 164px 0 0 59px !important;
   }
   /* app-dashboard */
